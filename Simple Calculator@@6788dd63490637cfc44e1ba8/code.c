@@ -9,7 +9,8 @@ int main (){
     }
     if (c == -){
         printf("%d",a - b);
-    }if (c == *){
+    }
+    if (c == *){
         printf("%d",a * b);
     }
     if (c == /){
