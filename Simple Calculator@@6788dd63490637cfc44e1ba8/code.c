@@ -13,7 +13,12 @@ int main (){
     if (c == '*'){
         printf("%d",a * b);
     }
-    if (c == '/'){
-        printf("%d",a / b);
+    if (b == 0){
+        if (c == '/'){
+        printf("Error");
+        }
+        else{
+            printf("%d",a * b);
+        }
     }
 }
