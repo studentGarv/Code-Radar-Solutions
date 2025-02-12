@@ -10,9 +10,9 @@ int main (){
     if (c == '-'){
         printf("%d",a - b);
     }
-    // if (c == ""){
-    //     printf("%d",a * b);
-    // }
+    if (c == "*"){
+        printf("%d",a * b);
+    }
     // if (c == "/"){
     //     printf("%d",a / b);
     // }
