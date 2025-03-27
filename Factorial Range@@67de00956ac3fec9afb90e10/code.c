@@ -7,8 +7,6 @@ void factorialRange(int start,int end){
     }
     else{
         printf("%d\n",n*=1); 
-        }       
+        }     
     }
     }
-
-}
