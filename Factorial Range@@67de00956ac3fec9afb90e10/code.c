@@ -1,6 +1,6 @@
 void factorialRange(int start,int end){
     if(start<0 | end>start){
-        printf("Invalid range")
+        printf("Invalid range");
     }
     for (int i=start;i<=end;i++){
     if(i==0){
