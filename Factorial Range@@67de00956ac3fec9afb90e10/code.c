@@ -1,4 +1,7 @@
 void factorialRange(int start,int end){
+    if(start<0 | end>start){
+        printf("Invalid range")
+    }
     for (int i=start;i<=end;i++){
     if(i==0){
     printf("%d\n",1);
