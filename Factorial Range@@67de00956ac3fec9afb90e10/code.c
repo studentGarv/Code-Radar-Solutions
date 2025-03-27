@@ -14,3 +14,4 @@ void factorialRange(int start,int end){
             factorial *= n;
         }
     }
+}
