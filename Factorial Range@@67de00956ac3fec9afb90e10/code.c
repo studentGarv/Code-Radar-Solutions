@@ -1,15 +1,13 @@
 void factorialRange(int start,int end){
-        if(start==0){
-        printf("%d\n",1);
-        int start=1;
+    for (int i=start;i<=end;i++){
+    if(i==0){
+    printf("%d\n",1);
+    continue;
+}
+    int no=1;
+    for(int n=1; n<=i;n++){
+        no*=n;
     }
-    else{
-        for (int i=start;i<=end;i++){
-        int no=1;
-        for(int n=1; n<=i;n++){
-            printf("%d\n",no*=n);
-        }
-          
-    }   
-    }
+    printf("%d\n",no);
+}   
 }
