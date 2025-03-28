@@ -9,5 +9,5 @@ int kthSmallest(int arr[],int n,int k){
     //     arr[i] = temp;
     //     }
     // }
-    printf("%d\n",k);
+    printf(" ");
 }
