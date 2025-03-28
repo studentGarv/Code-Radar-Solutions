@@ -3,13 +3,13 @@ int factorialRange(int start,int end){
         printf("Invalid range");
     }
     else{
-        for(i=start;i<=end;i++){
+        for(int i=start;i<=end;i++){
         if(i==0){
             printf("%d",1);
             continue;
         }
         int no=1;
-        for(n=i;n<=end;n++){
+        for(int n=i;n<=end;n++){
             no*=n;
         }
         return no;
