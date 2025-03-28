@@ -5,7 +5,7 @@ int factorialRange(int start,int end){
     else{
         for(int i=start;i<=end;i++){
         if(i==0){
-            printf("%d",1);
+            printf("%d\n",1);
             continue;
         }
         int no=1;
