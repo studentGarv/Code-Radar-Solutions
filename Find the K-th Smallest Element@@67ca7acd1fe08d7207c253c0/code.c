@@ -1,4 +1,7 @@
 int kthSmallest(int arr[],int n,int k){
+    if(k>=n){
+        printf("%d",-1);
+    }
     for(int i=0;i<k;i++){
         int temp,minIdx = i;
         for (int j = i + 1; j < n; j++){
