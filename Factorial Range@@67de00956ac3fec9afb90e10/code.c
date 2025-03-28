@@ -12,7 +12,7 @@ int factorialRange(int start,int end){
         for(int n=i;n<=end;n++){
             no*=n;
         }
-        return no;
+        printf("%d",no);
     }
   }
 }
