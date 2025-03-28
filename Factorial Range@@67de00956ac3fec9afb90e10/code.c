@@ -9,7 +9,7 @@ int factorialRange(int start,int end){
             continue;
         }
         int no=1;
-        for(int n=i;n<=end;n++){
+        for(int n=1;n<=i;n++){
             no*=n;
         }
         printf("%d\n",no);
