@@ -2,10 +2,10 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if (a+b>c ||a+c>b){
+    if (a+b>c){
         printf("Valid");
     }
-    else if (a+b>=c){
+    else if (a+b<=c){
         printf("Invalid");
     }
 }
