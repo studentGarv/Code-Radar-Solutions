@@ -6,5 +6,8 @@ int main(){
     for(int i=0;i<num;i++){
         scanf("%d",&arr[i]);
     }
-    for(int i=num-1;i>=0;i--)printf("%d\n",arr[i]);
+    int index;
+    scanf("%d",&index);
+    for(int i=num-index;i<num;i--)printf("%d\n",arr[i]);
+    for(int i=0;i<num-index;i++)printf("%d\n",arr[i]);
 }
