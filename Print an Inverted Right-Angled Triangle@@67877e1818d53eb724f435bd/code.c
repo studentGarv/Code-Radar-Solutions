@@ -3,21 +3,11 @@ int main(){
     int n;
     scanf("%d",&n);
     // char a=*;
+    for(int j=1;j<=n;j++){
     for(int i=1;i<=n;i++){
+        for()
         printf("* ");
     }
+    printf("\n");
+    }
 }
-// #include <stdio.h>
-
-// int main() {
-//     int rows = 5;
-
-//     for (int i = 0; i < rows; i++) {
-//         for (int j = 0; j < rows;j) {
-//             printf("* ");
-//         }
-//         printf("\n");
-//     }
-
-//     return 0;
-// }
