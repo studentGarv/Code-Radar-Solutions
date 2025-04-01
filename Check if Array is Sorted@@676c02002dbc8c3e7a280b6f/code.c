@@ -22,4 +22,7 @@ int main(){
             else if(n==0){  
     printf("Not Sorted"); 
             }
+            else if(a=1){
+                printf("Sorted");
+            }
 }
