@@ -8,10 +8,9 @@ int main(){
     }
     for(int j=0;j<a;j++){
         if(arr[j]<arr[j+1]){
-            printf("Sorted");
-        }
-        else{
-            printf("Not Sorted");
+           printf("Sorted");
+           continue;
         }
     }    
+    printf("Not Sorted");
 }
