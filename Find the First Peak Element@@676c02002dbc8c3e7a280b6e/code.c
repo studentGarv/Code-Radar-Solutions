@@ -13,7 +13,7 @@ int main(){
             temp=arr[j];
             break;
         }
-        else{
+        else if (arr[j+1]>arr[j]){
             temp=arr[j+1];
         }
     } 
