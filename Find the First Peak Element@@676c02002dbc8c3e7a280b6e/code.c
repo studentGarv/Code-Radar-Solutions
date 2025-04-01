@@ -13,6 +13,9 @@ int main(){
             temp=arr[j];
             break;
         }
+        else{
+            temp=arr[j+1];
+        }
     } 
     printf("%d",temp);  
 }
