@@ -8,7 +8,7 @@ int main(){
         // printf("%d",arr[i]);
     }
     int temp = 0;
-    for(int j=1;j<=n;j++){
+    for(int j=1;j<n;j++){
         if (arr[0]<arr[j]){
             temp=arr[j];
         }
