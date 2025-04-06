@@ -8,14 +8,13 @@ int main(){
         // printf("%d",arr[i]);
     }
     int temp = 0;
-    for(int j=0;j<n;j++){
-        if(arr[j]>arr[j+1]){
+    for(int j=1;j<=n;j++){
+        if (arr[0]<arr[j]){
             temp=arr[j];
-            break;
         }
-        else if (arr[j+1]>arr[j]){
-            temp=arr[j+1];
+        else{
+            temp=arr[0];
         }
-    } 
+    }
     printf("%d",temp);  
 }
