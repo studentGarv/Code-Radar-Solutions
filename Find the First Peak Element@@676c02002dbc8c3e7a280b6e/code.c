@@ -12,9 +12,9 @@ int main(){
         if (arr[0]<arr[j] ||arr[j]>arr[j+1]){
             temp=arr[j];
         }
-        else{
-            temp=arr[0];
-        }
+        // else{
+        //     temp=arr[0];
+        // }
     }
     printf("%d",temp);  
 }
