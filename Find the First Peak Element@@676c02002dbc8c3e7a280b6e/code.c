@@ -13,9 +13,9 @@ int main(){
             temp=arr[j];
             break;
         }
-        // else{
-        //     temp=arr[0];
-        // }
+        else if (n=2 && arr[0]<arr[j]){
+            temp=arr[j];
+        }
     }
     printf("%d",temp);  
 }
