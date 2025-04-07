@@ -9,8 +9,9 @@ int main(){
     }
     int temp = 0;
     for(int j=1;j<n;j++){
-        if (arr[0]<arr[j]){
+        if (arr[0]<arr[j] || arr[j]>arr[j+1]){
             temp=arr[j];
+            break;
         }
         // else{
         //     temp=arr[0];
