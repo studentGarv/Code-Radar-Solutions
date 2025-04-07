@@ -9,13 +9,14 @@ int main(){
     }
     int temp = 0;
     for(int j=1;j<n;j++){
-        if (arr[0]<arr[j] && arr[j]>arr[j+1]){
+        if (n=2 && arr[0]<arr[j]){
+            temp=arr[j];
+        }
+        else if (arr[0]<arr[j] && arr[j]>arr[j+1]){
             temp=arr[j];
             break;
         }
-        // else if (n=2 && arr[0]<arr[j]){
-        //     temp=arr[j];
-        // }
+         
     }
     printf("%d",temp);  
 }
